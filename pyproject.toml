@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sargus-dns"
+version = "0.0.1"
+description = "DNS server for local networks, which forward DNS if it does not find a local server"
+authors = ["Angus Robinson <angus@sargus.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.16"
+loguru = "^0.7.2"
+snoop = "^0.4.3"
+dnspython = "^2.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
