@@ -6,7 +6,7 @@ authors = ["Angus Robinson <angus@sargus.net>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.15.0"
+python = "3.15.2"
 loguru = "^0.7.3"
 snoop = "^0.6.0"
 dnspython = "^2.6.1"
