@@ -1,0 +1,12 @@
+[General]
+domain = sargus.net
+
+[Servers]
+git = 192.168.1.25
+ai = 192.168.1.100    # ai.sargus.net
+cronus = 192.168.1.101 # cronus.sargus.net
+prometheus = 192.168.1.102 # prometheus.sargus.net
+hack = 192.168.1.103    # hack.sargus.net
+
+[Local]
+linux = 127.0.0.1        # linux.sargus.net points to localhost
